@@ -80,25 +80,28 @@ LibraFlow dirancang agar:
 ## 🖼️ Tampilan Sistem
 
 ### 🌐 Landing Page
-![Landing Page](screenshots/01-landing-page.jpeg)
+![Landing Page](screenshots/01.ganti_landing.page.png)
 
 ### 🔐 Login
-![Login Page](screenshots/02-login-page.png)
+![Login Page](screenshots/02-ganti_login-page.png.png)
 
 ### 📊 Dashboard
-![Dashboard](screenshots/03-dashboard.png)
+![Dashboard](screenshots/03-ganti_dashboard.png)
 
 ### 📚 Katalog Buku Digital
-![Katalog Buku](screenshots/04-katalog-buku.png)
+![Katalog Buku](screenshots/04-ganti_katalog-buku.png)
 
 ### 👥 Anggota
 ![Manajemen Anggota](screenshots/05-manajemen-anggota.png)
 
 ### 🔄 Peminjaman / Sirkulasi
-![Riwayat Peminjaman](screenshots/06-peminjaman.png)
+![Riwayat Peminjaman](screenshots/06-ganti_peminjaman.png)
 
 ### 💰 Penagihan & Denda
-![Penagihan dan Denda](screenshots/07-denda.png)
+![Penagihan dan Denda](screenshots/07-ganti_denda.png)
+
+### 📈 Export Laporan (Mingguan/Bulanan)
+![Laporan Sistem](screenshots/laporan-mingguan-bulanan.png)
 
 ---
 
