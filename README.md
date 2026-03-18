@@ -172,7 +172,7 @@ LibraFlow dirancang agar:
 
 📩 **Hubungi untuk detail harga (Fast Response):**
 - 📱 **WhatsApp:** [+62 851-6942-4124](https://wa.me/6285169424124)
-- 📧 **Email:** [kalpin347@gmail.com](mailto:kalpin347@gmail.com)
+- 📧 **Email:** [kalify.dev@gmail.com](mailto:kalify.dev@gmail.com)
 
 > 🚀 **Kami siap bantu meroketkan digitalisasi perpustakaan di sekolah/instansi Anda!**
 
