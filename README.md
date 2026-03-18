@@ -162,10 +162,4 @@ docker exec -it perpustakaan-app php artisan migrate --seed
 
 ---
 
-<div align="center">
 
-**Dibuat dengan ❤️ & Semangat Kopi menggunakan Laravel 12**
-
-⭐ Jika kamu merasa pameran UI/UX proyek ini menarik, jangan malu untuk **beri Bintang (Star)** di pojok atas ya!
-
-</div>
