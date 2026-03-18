@@ -130,7 +130,8 @@ LibraFlow dirancang agar:
 - ✅ Unduh laporan PDF / Excel untuk kepala sekolah
 - ✅ Grafik Tren membaca bulanan
 
-### ⚙️ Sistem
+### ⚙️ Sistem & UI
+- ✅ **Antarmuka User-Friendly:** Dilengkapi *Dark Mode* & *Light Mode* sesuka hati
 - ✅ Multi Role: Admin, Pustakawan, Guest, Anggota Siswa
 - ✅ Log Aktivitas setiap detik 
 - ✅ Request Pembelian Buku oleh Anggota
