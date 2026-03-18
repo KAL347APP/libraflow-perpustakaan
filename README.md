@@ -13,6 +13,8 @@
 
 <br/>
 
+> ⚠️ **PEMBERITAHUAN:** Repositori ini **HANYA BERISI PREVIEW & SCREENSHOT** sebagai display portofolio dan demo. Source code **tidak dibagikan ke publik** karena proyek ini dikomersilasi (dijual).
+> 
 > **🎯 Dirancang untuk sekolah, kampus, dan perpustakaan umum yang ingin go digital dengan tampilan modern dan fitur lengkap.**
 
 <br/>
@@ -115,200 +117,21 @@
 
 ---
 
-## 🚀 Instalasi
+## 🛒 Cara Mendapatkan Source Code
 
-### Prasyarat
-- PHP 8.2+
-- Composer
-- Node.js 18+ & NPM
-- MySQL 8+ atau SQLite
-- (Opsional) Docker & Docker Compose
+Karena proyek ini adalah produk premium, **source code lengkap (Backend + Frontend + Database)** tidak di-publish di GitHub public. 
 
----
+Jika Anda tertarik untuk membeli kode sumber sistem ini (untuk dipakai di instansi Anda, studi kasus kampus, maupun dikembangkan lagi), silakan hubungi pengembang melalui:
 
-### ⚡ Install Cepat (1 Perintah)
+* 📱 **WhatsApp / Telegram:** [Nomor/Link Anda]
+* 📧 **Email:** [Email Anda]
+* 🛒 **Store:** [Link Shopee/Tokopedia/Gumroad jika ada]
 
-```bash
-composer run setup
-```
-
-Perintah ini akan otomatis:
-1. Install semua dependency PHP & Node.js
-2. Menyalin `.env.example` ke `.env`
-3. Generate application key
-4. Menjalankan migrasi database
-5. Build asset frontend
-
----
-
-### 🔧 Install Manual (Step by Step)
-
-**1. Clone repositori**
-```bash
-git clone https://github.com/username/perpustakaan.git
-cd perpustakaan
-```
-
-**2. Install dependency**
-```bash
-composer install
-npm install
-```
-
-**3. Konfigurasi environment**
-```bash
-cp .env.example .env
-php artisan key:generate
-```
-
-**4. Konfigurasi database di `.env`**
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=perpustakaan
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-**5. Migrasi & seed database**
-```bash
-php artisan migrate --seed
-```
-
-**6. Build frontend**
-```bash
-npm run build
-```
-
-**7. Jalankan server**
-```bash
-php artisan serve
-```
-
-Buka browser ke: **[http://localhost:8000](http://localhost:8000)**
-
----
-
-### 🐳 Instalasi dengan Docker
-
-```bash
-# Clone repository
-git clone https://github.com/username/perpustakaan.git
-cd perpustakaan
-
-# Jalankan dengan Docker
-docker compose up -d
-
-# Masuk ke container dan setup
-docker exec -it perpustakaan-app php artisan migrate --seed
-```
-
----
-
-## 👤 Akun Default (Seeder)
-
-Setelah menjalankan `php artisan migrate --seed`, akun berikut tersedia:
-
-| Role | Email | Password |
-|------|-------|----------|
-| **Admin** | admin@perpustakaan.com | password |
-| **Staff** | staff@perpustakaan.com | password |
-| **Guest** | guest@perpustakaan.com | password |
-| **Siswa** | siswa@perpustakaan.com | password |
-
-> ⚠️ **Ubah password default segera setelah login pertama kali!**
-
----
-
-## 📁 Struktur Proyek
-
-```
-perpustakaan/
-├── app/
-│   ├── Http/Controllers/     # Semua controller aplikasi
-│   ├── Models/               # Model Eloquent (Book, Member, Borrowing, dll.)
-│   ├── Policies/             # Aturan akses (RBAC)
-│   ├── Services/             # Business logic layer
-│   ├── Exports/              # Export Excel
-│   └── Imports/              # Import Excel
-├── database/
-│   ├── migrations/           # Skema database
-│   └── seeders/              # Data awal
-├── resources/
-│   └── views/                # Template Blade
-├── routes/
-│   └── web.php               # Definisi route
-├── docker/                   # Konfigurasi Docker
-└── public/                   # Asset publik
-```
-
----
-
-## 🔑 Fitur Role & Akses
-
-| Fitur | Admin | Staff | Guest | Siswa |
-|-------|:-----:|:-----:|:-----:|:-----:|
-| Dashboard & Statistik | ✅ | ✅ | ✅ | ❌ |
-| Manajemen Buku | ✅ | ✅ | ✅ | ❌ |
-| Manajemen Anggota | ✅ | ✅ | ✅ | ❌ |
-| Proses Peminjaman | ✅ | ✅ | ✅ | ❌ |
-| Manajemen Denda | ✅ | ✅ | ❌ | ❌ |
-| Laporan & Export | ✅ | ✅ | ❌ | ❌ |
-| Pengaturan Sistem | ✅ | ❌ | ❌ | ❌ |
-| Manajemen Staff | ✅ | ❌ | ❌ | ❌ |
-| Katalog Publik | ✅ | ✅ | ✅ | ✅ |
-
----
-
-## ⚙️ Konfigurasi Tambahan
-
-### Storage (Foto & PDF)
-```bash
-php artisan storage:link
-```
-
-### Queue Worker (untuk notifikasi & email)
-```bash
-php artisan queue:work
-```
-
-### Cache (untuk performa production)
-```bash
-php artisan config:cache
-php artisan route:cache
-php artisan view:cache
-```
-
----
-
-## 📦 Changelog
-
-### v1.0.0 — Rilis Pertama
-- ✅ Manajemen buku, anggota, peminjaman, denda
-- ✅ Sistem reservasi
-- ✅ Import/Export Excel & PDF
-- ✅ QR Code & Barcode buku
-- ✅ Landing page & katalog publik
-- ✅ Role-based access control (4 role)
-- ✅ Buku digital (PDF viewer)
-- ✅ Gamifikasi: poin & badge anggota
-- ✅ Docker support
-- ✅ Sistem caching untuk performa optimal
-
----
-
-## 🤝 Dukungan & Kontribusi
-
-Punya pertanyaan atau menemukan bug? Silakan buka [Issue](https://github.com/username/perpustakaan/issues) di repositori ini.
-
-Ingin berkontribusi? Pull request sangat disambut! Baca [Contributing Guide](CONTRIBUTING.md) terlebih dahulu.
-
----
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE) — bebas digunakan untuk keperluan pribadi maupun komersial.
+**Apa yang akan Anda dapatkan dari pembelian?**
+1. Source Code Full Version (Laravel 12).
+2. Panduan instalasi dan deployment ke Server/Hosting.
+3. Hak pemakaian untuk instansi atau pengembangan lanjutan.
+4. *Support* instalasi pertama kali.
 
 ---
 
@@ -316,6 +139,6 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE) — bebas digunakan untu
 
 **Dibuat dengan ❤️ menggunakan Laravel 12**
 
-⭐ Jika proyek ini bermanfaat, jangan lupa **beri bintang** di GitHub!
+⭐ Jika suka dengan UI/UX proyek ini, jangan lupa **beri bintang (Star)** di repositori ini!
 
 </div>
