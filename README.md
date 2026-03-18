@@ -32,19 +32,25 @@
 ## 🖼️ Screenshot
 
 ### 🌐 Landing Page
-![Landing Page](screenshots/01-landing-page.png)
+![Landing Page](screenshots/01-landing-page.jpeg)
 
 ### 🔐 Halaman Login
 ![Login Page](screenshots/02-login-page.png)
 
-### 📊 Dashboard Admin
+### 📊 Dashboard
 ![Dashboard](screenshots/03-dashboard.png)
 
-### 📚 Katalog Koleksi Buku
-![Katalog Buku](screenshots/04-katalog-buku.png)
+### 📚 Katalog Koleksi Digital
+![Katalog Buku Digital](screenshots/04-katalog-buku.png)
 
 ### 👥 Manajemen Anggota
 ![Manajemen Anggota](screenshots/05-manajemen-anggota.png)
+
+### 🔄 Peminjaman / Sirkulasi
+![Riwayat Peminjaman](screenshots/06-peminjaman.png)
+
+### 💰 Penagihan & Denda
+![Penagihan dan Denda](screenshots/07-denda.png)
 
 ---
 
