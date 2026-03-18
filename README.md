@@ -33,6 +33,40 @@
 
 ---
 
+## 📉 Sebelum vs Sesudah Pakai LibraFlow
+
+| Sebelum | Sesudah |
+|--------|--------|
+| Catat manual di buku | Semua otomatis & tersimpan |
+| Sulit tracking buku | Tracking real-time |
+| Data sering hilang | Data aman & terstruktur |
+| Laporan manual | Laporan otomatis |
+
+> ⚡ LibraFlow menghemat waktu pengelolaan hingga 70%
+
+---
+
+## ⭐ Feedback Awal
+
+> *"Sistemnya membantu banget untuk tracking buku, jadi lebih rapi"*
+> — **Pengguna Demo**
+
+> *"Dashboard-nya enak dilihat dan mudah dipakai"*
+> — **Tester Internal**
+
+---
+
+## ❓ Apakah Sistem Ini Sulit Digunakan?
+
+**Tidak.**
+
+LibraFlow dirancang agar:
+- Mudah digunakan oleh staff non-teknis
+- Tampilan sederhana & intuitif
+- Bisa langsung dipakai tanpa training panjang
+
+---
+
 ## 🏆 Kenapa Pilih LibraFlow?
 
 - ⚡ **Siap pakai** — tidak perlu *develop* pusing-pusing dari nol  
@@ -112,15 +146,26 @@
 
 ---
 
-## 💰 Ingin Memiliki Sistem Ini? (Tersedia Jasa Penuh)
+## 💼 Paket Implementasi
 
-Software ini adalah produk premium Proprietary. Bagi Anda yang tidak ingin pusing coding, staf kami menyediakan:
-- ✅ **Source Code Full System** (Khusus untuk Developer)
-- ✅ Instalasi & *Setup* server hingga *Online* (Terima Beres)
-- ✅ Modifikasi Custom Fitur menyesuaikan *Standard Operational Procedure* instansi Anda
-- ✅ Pendampingan dan *Support Maintenance* bulanan
+### 🟢 Basic
+- Setup sistem
+- Hosting lokal / server
+- Training penggunaan
 
-📩 **Hubungi Segera (Fast Response):**
+### 🔵 Standard
+- Setup + custom fitur ringan
+- Branding logo sekolah
+- Support 1 bulan
+
+### 🔴 Premium
+- Custom penuh sesuai kebutuhan
+- Integrasi tambahan
+- Maintenance & support prioritas
+
+*(Anda juga bisa membeli **Source Code Full Version**-nya saja !)*
+
+📩 **Hubungi untuk detail harga (Fast Response):**
 - 📱 **WhatsApp:** [+62 851-6942-4124](https://wa.me/6285169424124)
 - 📧 **Email:** [kalpin347@gmail.com](mailto:kalpin347@gmail.com)
 
