@@ -134,6 +134,7 @@ LibraFlow dirancang agar:
 - ✅ Grafik Tren membaca bulanan
 
 ### ⚙️ Sistem & UI
+- ✅ **Asisten AI Chatbot:** Memudahkan interaksi member & tanya jawab sistem secara cerdas
 - ✅ **Antarmuka User-Friendly:** Dilengkapi *Dark Mode* & *Light Mode* sesuka hati
 - ✅ Multi Role: Admin, Pustakawan, Guest, Anggota Siswa
 - ✅ Log Aktivitas setiap detik 
